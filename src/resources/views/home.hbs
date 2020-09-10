@@ -1,0 +1,23 @@
+
+    <main>
+        <div class="container-fluid">
+            {{>title-page}}
+            <div class="row">
+                 {{#each cources}}
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card bg-primary text-white mb-4">
+                        <div class="card">
+                            <img src="{{this.image}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-info">{{this.name}}</h5>
+                                <p class="card-text text-info">{{this.description}}</p>
+                                <a href="/courses/{{this.slug}}" class="btn btn-primary">Đăng kí</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+            </div>
+        </div>
+    </main>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> header}}
+</head>
+
+<body>
+    {{> navbar}}
+    <div id="layoutSidenav">
+        {{> sidenav}}
+        <div id="layoutSidenav_content">
+            {{{body}}}
+            {{> footer}}
+        </div>
+    </div>
+
+
+    {{> script}}
+</body>
+
+</html>

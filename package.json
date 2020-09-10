@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-f8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --trailing-comma all --write  '{src/**/*.{js,json,scss}'",
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chauquangtam/NodeJS-F8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chauquangtam/NodeJS-F8/issues"
+  },
+  "homepage": "https://github.com/chauquangtam/NodeJS-F8#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
+    "morgan": "^1.10.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1"
+  }
+}

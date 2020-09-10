@@ -1,0 +1,46 @@
+Hướng dẫn cài đặt 
+lnk : https://www.youtube.com/watch?v=zCFOn4YXr00&list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3&index=6
+npm init 
+tạo reponsitory
+npm install --save-dev nodemon
+
+
+vào package.jso sửa 
+"scripts": {
+    "start" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  run: npm start
+
+npm i prettier lint-staged husky --save-dev
+
+echo "# NodeJS-F8" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/chauquangtam/NodeJS-F8.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/chauquangtam/NodeJS-F8.git
+git branch -M master
+git push -u origin master
+
+cài morgan 
+
+npm i morgan --save-dev
+
+npm install express-handlebars
+
+npm install node-sass --save-dev : chuyển scss -> css
+
+run: npm run watch sau mỗi lần code trong file app.scss
+
+npm install mongoose 
+
+
+npm i body-parser
+
+
