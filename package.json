@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/chauquangtam/NodeJS-F8#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^5.1.0",
     "mongoose": "^5.10.3"
   },
